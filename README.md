@@ -5,7 +5,7 @@
 
 # demo
 
-Demo embbeds a number of TUI ansipixels program into a single demo binary with a menu
+Demo embeds a number of TUI ansipixels program into a single demo binary with a menu
 
 ## Install
 You can get the binary from [releases](https://github.com/ansipixels/demo/releases)
