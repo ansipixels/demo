@@ -21,12 +21,12 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
     call-codeql:
         uses: ansipixels/workflows/.github/workflows/codeql-analysis.yml@main
-    releaser-NAME:
+    releaser-demo:
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
         uses: ansipixels/workflows/.github/workflows/releaser.yml@main
         with:
-            description: "DESCRIPTION"
-            binary_name: "NAME"
+            description: "Demo embbeds a number of TUI ansipixels program into a single demo binary with a menu"
+            binary_name: "demo"
             dockerfile: "./Dockerfile"
         secrets:
             GH_PAT: ${{ secrets.GH_PAT }}

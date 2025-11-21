@@ -1,5 +1,5 @@
-// NAME
-// DESCRIPTION
+// demo
+// Demo embbeds a number of TUI ansipixels program into a single demo binary with a menu
 
 package cli
 
@@ -58,7 +58,7 @@ func (st *State) Run() int {
 		ap.ClearScreen()
 		ap.StartSyncMode()
 		// Redraw/resize/do something here:
-		ap.WriteBoxed(ap.H/2-1, "Welcome to NAME!\n%dx%d\nQ to quit.", ap.W, ap.H)
+		ap.WriteBoxed(ap.H/2-1, "Welcome to demo!\n%dx%d\nQ to quit.", ap.W, ap.H)
 		// ...
 		ap.EndSyncMode()
 		return nil

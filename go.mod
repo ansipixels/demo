@@ -1,4 +1,4 @@
-module github.com/ansipixels/NAME
+module github.com/ansipixels/demo
 
 go 1.24.0
 
