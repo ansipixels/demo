@@ -21,7 +21,6 @@ or
 docker run -ti ghcr.io/ansipixels/demo
 ```
 
-
 ## Usage
 
 ```
