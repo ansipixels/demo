@@ -1,5 +1,5 @@
 // demo
-// Demo embbeds a number of TUI ansipixels program into a single demo binary with a menu
+// Demo embeds a number of TUI ansipixels program into a single demo binary with a menu
 
 package main
 
